@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+
+html{
+    background-color: #94B49F;
+    background-image: url("https://c8.alamy.com/compes/prfdh8/codigo-de-programacion-de-futurista-y-grandes-conexiones-de-datos-y-modelos-de-red-ilustracion-3d-prfdh8.jpg");
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+#title{
+    padding:10px 10px 10px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+#description{
+    text-align: center;
+    color: #fff;
+}
+
+#survey-form{
+    background-color:#262645;
+    border-radius:15px;
+    width:50vw;
+    margin: auto;
+    opacity: .95;
+}
+
+.form-group{
+    border-radius: 20px;
+    width:90%;
+    margin:20px 0px 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.boton{
+     text-align:center;
+}
+
+label{
+    display: block;
+}
+
+.input-text{
+    padding: 0px;
+    border: 0px;
+    width: 45vw;
+    height: 2rem;
+    color: #495057;
+    border-radius: 5px;
+    outline: none;
+    text-indent: 10px;
+}
+
+.form-group textarea{
+    resize:none;
+    height: 15vh;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+select{
+    width: 100vw;
+}
+
+#submit{
+    width: 15vw;
+    height: 5vh;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(47 111 209);
+    color: #fff;
+}
+
+#submit:hover{
+    border-bottom: #262645;
+    outline: 3px solid #1cb2c9;
+}
+
+textarea::placeholder{
+    padding-top: 10px;
+}
+

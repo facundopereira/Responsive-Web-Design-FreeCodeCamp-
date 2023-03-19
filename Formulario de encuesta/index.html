@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario FreeCodeCamp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1 id="title">Formulario de encuesta de FreeCodeCamp </h1>
+            <p id="description">Gracias por tomarte el tiempo de ayudar a mejorar la plataforma</p>
+        </header>
+        <main>
+
+            <form id="survey-form"><br>
+                <div class="form-group">
+                    <label id="name-label">Nombre</label>
+                    <input class="input-text" id="name" type="text" placeholder="Ingresa tu nombre" required></input>
+                </div>
+                <div class="form-group">
+                    <label id="email-label">Email</label>
+                    <input class="input-text" id="email" type="Email" placeholder="Ingresa tu correo electronico"
+                        required></input>
+                </div>
+                <div class="form-group">
+                    <label id="number-label">Años (opcional)</label>
+                    <input class="input-text" id="number" type="Number" placeholder="Años" min="10" max="99"
+                        class="form-control" required></input>
+                </div>
+                <div class="form-group">
+                    <label>Elija su lenguaje</label>
+                    <select class="input-text" id="dropdown">
+                        <option disabled selected>Elija Su Lenguaje</option>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>¿Recomendarías freeCodeCamp a un amigo?</label>
+                    <input value="definitivamente" type="radio" name="option">Definitivamente</input><br>
+                    <input value="Quizas" type="radio" name="option">Quizas</input><br>
+                    <input value="No lo creo" type="radio" name="option">No lo creo</input>
+                </div>
+                <div class="form-group">
+                    <label>¿Cuál es tu función favorita de freeCodeCamp?</label>
+                    <select class="input-text" placeholder="seleccione una opcion">
+                        <option disabled selected>Seleccione una opcion </option>
+                        <option value="Desafio">Desafio</option>
+                        <option value="Proyecto">Proyecto</option>
+                        <option value="Comunidad">Comunidad</option>
+                        <option value="Fuente abierta">Fuente abierta</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>¿Qué te gustaría ver mejorado? (Marque todo lo que corresponda)</p>
+                    <input value="Proyectos front-end" type="checkbox">Proyectos front-end</input><br>
+                    <input value="Proyectos de back-end" type="checkbox"></input>Proyectos de back-end<br>
+                    <input value="Visualización de datos" type="checkbox">Visualización de datos</input><br>
+                    <input value="Desafíos" type="checkbox">Desafíos</input><br>
+                    <input value="Comunidad de código abierto" type="checkbox">Comunidad de código abierto</input><br>
+                    <input value="Salas de ayuda de Gitter" type="checkbox">Salas de ayuda de Gitter</input><br>
+                    <input value="Vídeos" type="checkbox">Vídeos</input><br>
+                    <input value="Encuentros de la ciudad" type="checkbox">Encuentros de la ciudad</input><br>
+                    <input value="Wiki" type="checkbox">Wiki</input><br>
+                    <input value="Foro" type="checkbox">Foro</input><br>
+                    <input value="Cursos adicionales" type="checkbox">Cursos adicionales</input>
+                </div>
+                <div class="form-group">
+                    <p>¿Algun comentario o sugerencias?
+                    </p>
+                        <textarea class="input-text" placeholder="  Escribe aqui tu comentario"></textarea>
+                </div>
+                <div class="form-group boton">
+                    <input id="submit" type="submit"></input>
+                </div><br>
+            </form>
+    </div>
+    </main>
+</body>
+
+</html>
